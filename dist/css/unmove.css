@@ -1,0 +1,11 @@
+/* Unmove v1.0.0-alpha
+Copyright 2022 Eamonn Cottrell
+Licensed under MIT (https://github.com/sieis/unmove/blob/main/LICENSE) */
+
+:root{
+    --um-primary: #bb00d4;
+    --um-secondary: #8f8f8f;
+    --um-border-radius: 0.5rem;
+    --um-border-radius-sm: 0.25rem;
+    --um-border-radius-lg: 1.5rem;
+}
