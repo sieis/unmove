@@ -2,10 +2,49 @@
 Copyright 2022 Eamonn Cottrell
 Licensed under MIT (https://github.com/sieis/unmove/blob/main/LICENSE) */
 
-:root{
+:root {
     --um-primary: #bb00d4;
     --um-secondary: #8f8f8f;
     --um-border-radius: 0.5rem;
     --um-border-radius-sm: 0.25rem;
     --um-border-radius-lg: 1.5rem;
 }
+
+.headline {
+    font-size: 4rem;
+    color: var(--um-primary);
+}
+
+.subtitle {
+    font-size: 2.5rem;
+    color: var(--um-secondary);
+}
+
+/* Infinite Spinning Animation */
+.um-spin {
+    animation: spin 3s linear infinite;
+}
+
+.um-spin-fast {
+    animation: spin 1.5s linear infinite;
+}
+
+.um-spin-slow {
+    animation: spin 6s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Stepping */
+
+/* Scrolling News Ticker Animation */
+
+/* Infinite Orbit Animation */
