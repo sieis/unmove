@@ -17,34 +17,98 @@ Licensed under MIT (https://github.com/sieis/unmove/blob/main/LICENSE) -->
 <body>
   <main class="container">
     <section class="container border border-dark border-5 rounded-3 mb-5 mx-auto text-center">
-      <h1 class="display-1">Unmove</h1>
-      <h2 class="fw-bold text-primary">CSS Animation Library</h2>
+      <h1 class="neon title my-5">Unmove</h1>
+      <h2 class="neon my-5">CSS Animation Library</h2>
     </section>
-    <section class="text-center container border border-dark border-5 rounded-3 p-5">
-      <h2>Spinner Animation</h2>
+    <!-- ====================== SPINNER SECTION ====================== -->
+    <section class="text-center container border border-dark border-5 rounded-3 p-5 my-2">
+      <h2 class="neon">Spinner Animation</h2>
       <div class="p-2 fs-4 text-center">
-        <p>An infinite spin. Add the class <span class="fw-bold fs-5">um-spin</span> to anything you want to spin
+        <p>An infinite spin. Add the class <code>um-spin</code> to anything you want to spin
         </p>
         <div style="height:200px;width:200px"
           class="my-5 mx-auto spin border border-dark border-5 rounded-5 shadow-lg um-spin">
         </div>
       </div>
-      <div class="p-2">
-        <p>Crank up the speed. Add the class <span class="fw-bold fs-5">um-spin-fast</span> to go twice as fast.
+      <div class="p-2 fs-4 text-center">
+        <p>Crank up the speed. Add the class <code>um-spin-fast</code> to go twice as fast.
         </p>
         <div style="height:200px;width:200px"
           class="my-5 mx-auto border border-dark border-5 rounded-5 shadow-lg um-spin-fast">
         </div>
       </div>
-      <div class="p-2 text-center">
-        <p>Chill out. Add the class <span class="fw-bold fs-5">um-spin-slow</span> to calm down and go real slow.
+      <div class="p-2 fs-4 text-center>
+        <p>Chill out. Add the class <code>um-spin-slow</code> to calm down and go real slow.
         </p>
         <div style="height:200px;width:200px"
           class="my-5 mx-auto border border-dark border-5 rounded-5 shadow-lg um-spin-slow">
         </div>
       </div>
     </section>
+<!-- ====================== END SPINNER SECTION ====================== -->
 
+<!-- ====================== NEWS TICKER SECTION ====================== -->
+
+    <section class="text-center border border-dark border-5 rounded-3 py-5 my-2">
+      <h2 class="neon">Ticker Animation</h2>
+      <div class="container p-5 fs-4 text-center">
+        <p>
+          A horizontal news ticker scrolling animation. Add the class <code>um-news-wrap</code> to a div. This will go around the news ticker area and sets overflow to hiddent. 
+        </p>
+        <p>
+          Add the class <code>um-news-tick</code> to a div within <code>um-news-wrap</code>. 
+        </p>
+        <p>
+          Then add the class <code>um-news-item</code> to each item you want to be in the news ticker.
+        </p>
+        
+      </div>
+      <!-- ==================== right to left =================== -->
+        <div class="um-news-wrap">
+          <div class="um-news-tick">
+            <img src="./img/earth@4x.png" alt="" class="um-news-item">
+            <img src="./img/saturn@4x.png" alt="" class="um-news-item">
+            <img src="./img/mars@4x.png" alt="" class="um-news-item">
+            <img src="./img/jupiter@4x.png" alt="" class="um-news-item">
+            <img src="./img/venus@4x.png" alt="" class="um-news-item">
+            <img src="./img/uranus@4x.png" alt="" class="um-news-item">
+            <img src="./img/neptune@4x.png" alt="" class="um-news-item">
+
+            <img src="./img/earth@4x.png" alt="" class="um-news-item">
+            <img src="./img/saturn@4x.png" alt="" class="um-news-item">
+            <img src="./img/mars@4x.png" alt="" class="um-news-item">
+            <img src="./img/jupiter@4x.png" alt="" class="um-news-item">
+            <img src="./img/venus@4x.png" alt="" class="um-news-item">
+            <img src="./img/uranus@4x.png" alt="" class="um-news-item">
+            <img src="./img/neptune@4x.png" alt="" class="um-news-item">
+          </div>
+        </div>
+        <div class="container p-5 fs-4 text-center">
+          <p>
+            If you don't want the scrolling to stop when you hover over an item, add <code>no-hover</code>. And add reverse to have it scroll from left to right: <code>um-news-tick-reverse-no-hover</code>
+          </p>
+        </div>
+        <!-- ==================== left to right =================== -->
+        <div class="um-news-wrap">
+          <div class="um-news-tick-reverse-no-hover">
+            <img src="./img/monday.svg" alt="" class="um-news-item">
+            <img src="./img/tuesday.svg" alt="" class="um-news-item">
+            <img src="./img/wednesday.svg" alt="" class="um-news-item">
+            <img src="./img/thursday.svg" alt="" class="um-news-item">
+            <img src="./img/friday.svg" alt="" class="um-news-item">
+            <img src="./img/saturday.svg" alt="" class="um-news-item">
+            <img src="./img/sunday.svg" alt="" class="um-news-item">
+            <img src="./img/monday.svg" alt="" class="um-news-item">
+            <img src="./img/tuesday.svg" alt="" class="um-news-item">
+            <img src="./img/wednesday.svg" alt="" class="um-news-item">
+            <img src="./img/thursday.svg" alt="" class="um-news-item">
+            <img src="./img/friday.svg" alt="" class="um-news-item">
+            <img src="./img/saturday.svg" alt="" class="um-news-item">
+            <img src="./img/sunday.svg" alt="" class="um-news-item">
+
+          </div>
+        </div>
+    </section>
   </main>
 </body>
 

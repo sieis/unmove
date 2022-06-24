@@ -9,6 +9,45 @@ Licensed under MIT (https://github.com/sieis/unmove/blob/main/LICENSE) */
     --um-border-radius-sm: 0.25rem;
     --um-border-radius-lg: 1.5rem;
 }
+h1{
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+/* props to css-tricks article on the neon effect: https://css-tricks.com/how-to-create-neon-text-with-css/ */
+.neon{
+    color: #fff;
+    text-shadow: 
+    0 0 7px #fff,
+    0 0 10px #000,
+    0 0 21px #000,
+    0 0 42px var(--um-primary),
+    0 0 82px var(--um-primary),
+    0 0 92px var(--um-primary),
+    0 0 102px var(--um-primary);
+    animation: neon-pulsate 3s alternate  infinite;
+}
+@keyframes neon-pulsate {
+    100%{
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #000,
+        0 0 40px var(--um-primary),
+        0 0 80px var(--um-primary),
+        0 0 90px var(--um-primary),
+        0 0 100px var(--um-primary);
+    }
+    0%{
+        text-shadow:
+        0 0 2px #fff,
+        0 0 4px #fff,
+        0 0 6px #000,
+        0 0 10px var(--um-primary),
+        0 0 45px var(--um-primary),
+        0 0 55px var(--um-primary),
+        0 0 70px var(--um-primary);
+    }
+}
 
 .headline {
     font-size: 4rem;
@@ -46,5 +85,53 @@ Licensed under MIT (https://github.com/sieis/unmove/blob/main/LICENSE) */
 /* Stepping */
 
 /* Scrolling News Ticker Animation */
-
+.um-news-wrap{
+    overflow: hidden;
+}
+.um-news-tick{
+    display: flex;
+    animation: news-ticker 6s linear infinite;
+}
+.um-news-tick:hover{
+    animation-play-state: paused;
+}
+.um-news-tick-no-hover{
+    display: flex;
+    animation: news-ticker 6s linear infinite;
+}
+.um-news-tick-reverse{
+    display: flex;
+    justify-content: flex-end;
+    animation: news-ticker-reverse 6s linear infinite
+}
+.um-news-tick-reverse-no-hover{
+    display: flex;
+    justify-content: flex-end;
+    animation: news-ticker-reverse 6s linear infinite
+}
+.um-news-tick-reverse:hover{
+    animation-play-state: paused;
+}
+.um-news-item{
+    width: 16rem;
+    /* min-width helps svgs behave properly in the scroll without having to manually set their height or width */
+    min-width: 16rem;
+    margin: 0 1rem;
+}
+@keyframes news-ticker{
+    0%{
+        transform: translate3d(0,0,0);
+    }
+    100%{
+        transform: translate3d(-126rem,0,0);
+    }
+}
+@keyframes news-ticker-reverse{
+    0%{
+        transform: translate3d(0,0,0);
+    }
+    100%{
+        transform: translate3d(126rem,0,0);
+    }
+}
 /* Infinite Orbit Animation */
