@@ -13,44 +13,6 @@ h1{
     font-size: 4rem;
     text-transform: uppercase;
 }
-/* props to css-tricks article on the neon effect: https://css-tricks.com/how-to-create-neon-text-with-css/ */
-.neon{
-    color: #fff;
-    text-shadow: 
-    0 0 7px #fff,
-    0 0 10px #000,
-    0 0 21px #000,
-    0 0 42px var(--um-primary),
-    0 0 82px var(--um-primary),
-    0 0 92px var(--um-primary),
-    0 0 102px var(--um-primary),
-    0 0 151px var(--um-primary);
-    animation: neon-pulsate 3s alternate  infinite;
-}
-@keyframes neon-pulsate {
-    100%{
-        text-shadow:
-        0 0 4px #fff,
-        0 0 11px #fff,
-        0 0 19px #000,
-        0 0 40px var(--um-primary),
-        0 0 80px var(--um-primary),
-        0 0 90px var(--um-primary),
-        0 0 100px var(--um-primary),
-        0 0 150px var(--um-primary);
-    }
-    0%{
-        text-shadow:
-        0 0 2px #fff,
-        0 0 4px #fff,
-        0 0 6px #000,
-        0 0 10px var(--um-primary),
-        0 0 45px var(--um-primary),
-        0 0 55px var(--um-primary),
-        0 0 70px var(--um-primary),
-        0 0 80px var(--um-primary);
-    }
-}
 
 .headline {
     font-size: 4rem;
