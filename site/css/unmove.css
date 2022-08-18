@@ -4,7 +4,9 @@ Licensed under MIT (https://github.com/sieis/unmove/blob/main/LICENSE) */
 
 :root {
     --um-primary: #bb00d4;
-    --um-secondary: #8f8f8f;
+    --um-font: #3F3D56;
+    --um-secondary: #c4c4c4;
+    --um-bg-color: #FFBF63;
     --um-border-radius: 0.5rem;
     --um-border-radius-sm: 0.25rem;
     --um-border-radius-lg: 1.5rem;
@@ -12,6 +14,14 @@ Licensed under MIT (https://github.com/sieis/unmove/blob/main/LICENSE) */
 h1{
     font-size: 4rem;
     text-transform: uppercase;
+}
+body{
+    background-color: var(--um-secondary);
+}
+
+section{
+    background-color: var(--um-bg-color);
+    color: var(--um-font);
 }
 
 .headline {
