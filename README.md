@@ -51,7 +51,6 @@ A few options to start with:
 </body>
 </html>
 ```
-3. 
 
 ## Preview
 
