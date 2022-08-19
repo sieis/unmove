@@ -2,6 +2,8 @@
 
 Open-source CSS animation library.
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/bd81c428-84e1-4114-aeac-de9f2d03d292/deploy-status)](https://app.netlify.com/sites/unmove/deploys)
+
 ## Documentation
 
 [Demo Site here](https://unmove.netlify.app/)
