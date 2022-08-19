@@ -6,9 +6,52 @@ Open-source CSS animation library.
 
 ## Documentation
 
-[Demo Site here](https://unmove.netlify.app/)
+[Demo and documentation site here](https://unmove.netlify.app/)
 
 ![sacred geometry spinner](https://media.giphy.com/media/rqXk2WsgiDGHoHMU8l/giphy.gif)
+
+## Quick Start
+
+A few options to start with: 
+
+* Download the [css file](https://github.com/sieis/unmove/blob/11-getting-started-page/dist/unmove.css)
+* Copy CDN into `<head>` of HTML document: `https://cdn.jsdelivr.net/gh/sieis/unmove@main/dist/unmove.css`
+* Check out [demo site](https://unmove.netlify.app/) for samples.
+
+## Quick Install Instructions
+
+1. Create a new `index.html` document
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>unmove demo</title>
+</head>
+<body>
+    
+</body>
+</html>
+```
+2. Include the CDN `<link>` tag in the `<head>`
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sieis/unmove@main/dist/unmove.css">
+    <title>unmove demo</title>
+</head>
+<body>
+    
+</body>
+</html>
+```
+3. 
 
 ## Preview
 
