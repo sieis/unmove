@@ -1,6 +1,6 @@
 # Unmove | open-source CSS animation library
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/bd81c428-84e1-4114-aeac-de9f2d03d292/deploy-status)](https://app.netlify.com/sites/unmove/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/bd81c428-84e1-4114-aeac-de9f2d03d292/deploy-status?branch=main)](https://app.netlify.com/sites/unmove/deploys)
 
 ![unmove-meta-image](https://user-images.githubusercontent.com/3012159/186456090-a216d2d8-26a6-464b-9ba5-ebda2d50df5a.png)
 
