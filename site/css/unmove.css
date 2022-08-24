@@ -24,6 +24,14 @@ code{
     color:#aa0000;
 }
 
+a{
+    color: #0000FF;
+}
+
+a:hover{
+    color:#5100ff;
+}
+
 section{
     background-color: var(--um-bg-color);
     color: var(--um-font);
