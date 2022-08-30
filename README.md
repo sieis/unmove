@@ -8,7 +8,7 @@
 
 [Demo and documentation site here](https://unmove.netlify.app/)
 
-![sacred geometry spinner](https://media.giphy.com/media/rqXk2WsgiDGHoHMU8l/giphy.gif)
+![sacred geometry spinner](./site/img/sacred%20spinner.svg)
 
 ## Quick Start
 
